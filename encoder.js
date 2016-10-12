@@ -96,34 +96,36 @@ function keyCode(event) {
     else if(x == 190) {
       document.getElementById("textArea").innerHTML += ".";
     }
-    else if(x == 90) {
-      document.getElementById("textArea").innerHTML += "";
+    else if(x == 48) {
+      document.getElementById("textArea").innerHTML += "0";
     }
     else if(x == 50) {
       document.getElementById("textArea").innerHTML += "2";
     }
-    else if(x == 52) {
+    else if(x == 51) {
       document.getElementById("textArea").innerHTML += "3";
     }
-    else if(x == 53) {
+    else if(x == 52) {
       document.getElementById("textArea").innerHTML += "4";
     }
-    else if(x == 54) {
+    else if(x == 53) {
       document.getElementById("textArea").innerHTML += "5";
     }
-    else if(x == 55) {
+    else if(x == 54) {
       document.getElementById("textArea").innerHTML += "6";
     }
-    else if(x == 56) {
+    else if(x == 55) {
       document.getElementById("textArea").innerHTML += "7";
     }
-    else if(x == 57) {
+    else if(x == 56) {
       document.getElementById("textArea").innerHTML += "8";
     }
-    else if(x == 58) {
+    else if(x == 57) {
       document.getElementById("textArea").innerHTML += "9";
     }
-
+    else if(x == 187) {
+      document.getElementById("textArea").innerHTML += "=";
+    }
 
 
   }

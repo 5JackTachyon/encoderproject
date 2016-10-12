@@ -128,4 +128,12 @@ function keyCode(event) {
     }
 
 
+
+
+
   }
+
+$("input[type='radio']").click(function(){
+  $("input:checked").prop('checked', false);
+  $(this).prop('checked', true);
+});

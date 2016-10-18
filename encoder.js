@@ -280,82 +280,82 @@ else if($("input:checked").val() == "heiroglyphics"){
 
 var x = event.keyCode;
 if (x == 65) {
-  document.getElementById("textArea").innerHTML += "<img src='a.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/a.gif'>";
 }
 else if(x == 66) {
-  document.getElementById("textArea").innerHTML += "<img src='b.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/b.gif'>";
 }
 else if(x == 67) {
-  document.getElementById("textArea").innerHTML += "<img src='c.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/c.gif'>";
 }
 else if(x == 68) {
-  document.getElementById("textArea").innerHTML += "<img src='d.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/d.gif'>";
 }
 else if(x == 69) {
-  document.getElementById("textArea").innerHTML += "<img src='e.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/e.gif'>";
 }
 else if(x == 70) {
-  document.getElementById("textArea").innerHTML += "<img src='f.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/f.gif'>";
 }
 else if(x == 71) {
-  document.getElementById("textArea").innerHTML += "<img src='g.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/g.gif'>";
 }
 else if(x == 72) {
-  document.getElementById("textArea").innerHTML += "<img src='h.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/h.gif'>";
 }
 else if(x == 73) {
-  document.getElementById("textArea").innerHTML += "<img src='i.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/i.gif'>";
 }
 else if(x == 74) {
-  document.getElementById("textArea").innerHTML += "<img src='j.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/j.gif'>";
 }
 else if(x == 75) {
-  document.getElementById("textArea").innerHTML += "<img src='k.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/k.gif'>";
 }
 else if(x == 76) {
-  document.getElementById("textArea").innerHTML += "<img src='l.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/l.gif'>";
 }
 else if(x == 77) {
-  document.getElementById("textArea").innerHTML += "<img src='m.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/m.gif'>";
 }
 else if(x == 78) {
-  document.getElementById("textArea").innerHTML += "<img src='n.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/n.gif'>";
 }
 else if(x == 79) {
-  document.getElementById("textArea").innerHTML += "<img src='o.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/o.gif'>";
 }
 else if(x == 80) {
-  document.getElementById("textArea").innerHTML += "<img src='p.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/p.gif'>";
 }
 else if(x == 81) {
-  document.getElementById("textArea").innerHTML += "<img src='q.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/q.gif'>";
 }
 else if(x == 82) {
-  document.getElementById("textArea").innerHTML += "<img src='r.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/r.gif'>";
 }
 else if(x == 83) {
-  document.getElementById("textArea").innerHTML += "<img src='s.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/s.gif'>";
 }
 else if(x == 84) {
-  document.getElementById("textArea").innerHTML += "<img src='t.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/t.gif'>";
 }
 else if(x == 85) {
-  document.getElementById("textArea").innerHTML += "<img src='u.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/u.gif'>";
 }
 else if(x == 86) {
-  document.getElementById("textArea").innerHTML += "<img src='v.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/v.gif'>";
 }
 else if(x == 87) {
-  document.getElementById("textArea").innerHTML += "<img src='w.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/w.gif'>";
 }
 else if(x == 88) {
-  document.getElementById("textArea").innerHTML += "<img src='x.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/x.gif'>";
 }
 else if(x == 89) {
-  document.getElementById("textArea").innerHTML += "<img src='y.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/y.gif'>";
 }
 else if(x == 90) {
-  document.getElementById("textArea").innerHTML += "<img src='z.gif'>";
+  document.getElementById("textArea").innerHTML += "<img src='images/heiroglyphics/z.gif'>";
 }
 else if(x == 32) {
   document.getElementById("textArea").innerHTML += " ";

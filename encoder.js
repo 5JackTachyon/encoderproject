@@ -1,14 +1,16 @@
 
 var letter
 
-
+/* Radio Button Code */
 $("input[type='radio']").click(function(){
   $("input:checked").prop('checked', false);
   $(this).prop('checked', true);
 });
 
+/*Function Where The Echo, Caesar Cipher, And Heirglypgics Input Checked If/Else If Statements Are*/
   function keyCode(event) {
 
+/*If Statement For Echo*/
 if($("input:checked").val() == "echo"){
       var x = event.keyCode;
       if (x == 65) {
@@ -143,6 +145,7 @@ if($("input:checked").val() == "echo"){
 
 }
 
+/*If Statement For Cipher*/
 else if($("input:checked").val() == "cipher"){
 
       var x = event.keyCode;
@@ -275,7 +278,7 @@ else if($("input:checked").val() == "cipher"){
 
 }
 
-
+/*If Statement For Heiroglyph*/
 else if($("input:checked").val() == "heiroglyphics"){
 
 var x = event.keyCode;
@@ -540,30 +543,55 @@ function keyCodeAll(event) {
 function decodeTheBrode() {
   var str = document.getElementById("translationArea").innerHTML;
   var a = str.replace("z", "a");
+  document.getElementById("translationArea").innerHTML = a;
   var b = str.replace("a", "b");
+  document.getElementById("translationArea").innerHTML = b;
   var c = str.replace("b", "c");
+  document.getElementById("translationArea").innerHTML = c;
   var d = str.replace("c", "d");
+  document.getElementById("translationArea").innerHTML = d;
   var e = str.replace("d", "e");
+  document.getElementById("translationArea").innerHTML = e;
   var f = str.replace("e", "f");
+  document.getElementById("translationArea").innerHTML = f;
   var g = str.replace("f", "g");
+  document.getElementById("translationArea").innerHTML = g;
   var h = str.replace("g", "h");
+  document.getElementById("translationArea").innerHTML = h;
   var i = str.replace("h", "i");
+  document.getElementById("translationArea").innerHTML = i;
   var j = str.replace("i", "j");
+  document.getElementById("translationArea").innerHTML = j;
   var k = str.replace("j", "k");
+  document.getElementById("translationArea").innerHTML = k;
   var l = str.replace("k", "l");
+  document.getElementById("translationArea").innerHTML = l;
   var m = str.replace("l", "m");
+  document.getElementById("translationArea").innerHTML = m;
   var n = str.replace("m", "n");
+  document.getElementById("translationArea").innerHTML = n;
   var o = str.replace("n", "o");
+  document.getElementById("translationArea").innerHTML = o;
   var p = str.replace("o", "p");
+  document.getElementById("translationArea").innerHTML = p;
   var q = str.replace("p", "q");
+  document.getElementById("translationArea").innerHTML = q;
   var r = str.replace("q", "r");
+  document.getElementById("translationArea").innerHTML = r;
   var s = str.replace("r", "s");
+  document.getElementById("translationArea").innerHTML = s;
   var t = str.replace("s", "t");
+  document.getElementById("translationArea").innerHTML = t;
   var u = str.replace("t", "u");
+  document.getElementById("translationArea").innerHTML = u;
   var v = str.replace("u", "v");
+  document.getElementById("translationArea").innerHTML = v;
   var w = str.replace("v", "w");
+  document.getElementById("translationArea").innerHTML = w;
   var x = str.replace("w", "x");
+  document.getElementById("translationArea").innerHTML = x;
   var y = str.replace("x", "y");
+  document.getElementById("translationArea").innerHTML = y;
   var z = str.replace("y", "z");
-
+  document.getElementById("translationArea").innerHTML = z;
 }

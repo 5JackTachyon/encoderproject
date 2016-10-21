@@ -492,7 +492,6 @@ function keyCodeAll(event) {
       document.getElementById("translationArea").innerHTML += "a";
     }
     else if(x == 32) {
-      /*I think this is the only messed up letter in the decoder*/
       document.getElementById("translationArea").innerHTML += "1";
     }
     else if(x == 49) {
@@ -540,59 +539,59 @@ function keyCodeAll(event) {
 
 
 }
-
+/*this part doesn't work*/
 function decodeTheBrode() {
   var str = document.getElementById("translationArea").innerHTML;
-  var a = str.replace("z", "a");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/a.gif'>";
-  var b = str.replace("a", "b");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/b.gif'>";
-  var c = str.replace("b", "c");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/c.gif'>";
-  var d = str.replace("c", "d");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/d.gif'>";
-  var e = str.replace("d", "e");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/e.gif'>";
-  var f = str.replace("e", "f");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/f.gif'>";
-  var g = str.replace("f", "g");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/g.gif'>";
-  var h = str.replace("g", "h");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/h.gif'>";
-  var i = str.replace("h", "i");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/i.gif'>";
-  var j = str.replace("i", "j");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/j.gif'>";
-  var k = str.replace("j", "k");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/k.gif'>";
-  var l = str.replace("k", "l");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/l.gif'>";
-  var m = str.replace("l", "m");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/m.gif'>";
-  var n = str.replace("m", "n");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/n.gif'>";
-  var o = str.replace("n", "o");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/o.gif'>";
-  var p = str.replace("o", "p");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/p.gif'>";
-  var q = str.replace("p", "q");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/q.gif'>";
-  var r = str.replace("q", "r");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/r.gif'>";
-  var s = str.replace("r", "s");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/s.gif'>";
-  var t = str.replace("s", "t");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/t.gif'>";
-  var u = str.replace("t", "u");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/u.gif'>";
-  var v = str.replace("u", "v");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/v.gif'>";
-  var w = str.replace("v", "w");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/w.gif'>";
-  var x = str.replace("w", "x");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/x.gif'>";
-  var y = str.replace("x", "y");
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/y.gif'>";
-  var z = str.replace("y", "z")
-  document.getElementById("translationArea").innerHTML = "<img src='images/heiroglyphics/z.gif'>";
+  var a = str.replace("a", "<img src='images/heiroglyphics/a.gif'>");
+  document.getElementById("translationArea").innerHTML += a;
+  var b = str.replace("b", "<img src='images/heiroglyphics/b.gif'>");
+  document.getElementById("translationArea").innerHTML += b;
+  var c = str.replace("c", "<img src='images/heiroglyphics/c.gif'>");
+  document.getElementById("translationArea").innerHTML += c;
+  var d = str.replace("d", "<img src='images/heiroglyphics/d.gif'>");
+  document.getElementById("translationArea").innerHTML += d;
+  var e = str.replace("e", "<img src='images/heiroglyphics/e.gif'>");
+  document.getElementById("translationArea").innerHTML += e;
+  var f = str.replace("f", "<img src='images/heiroglyphics/f.gif'>");
+  document.getElementById("translationArea").innerHTML += f;
+  var g = str.replace("g", "<img src='images/heiroglyphics/g.gif'>");
+  document.getElementById("translationArea").innerHTML += g;
+  var h = str.replace("h", "<img src='images/heiroglyphics/h.gif'>");
+  document.getElementById("translationArea").innerHTML += h;
+  var i = str.replace("i", "<img src='images/heiroglyphics/i.gif'>");
+  document.getElementById("translationArea").innerHTML += i;
+  var j = str.replace("j", "<img src='images/heiroglyphics/j.gif'>");
+  document.getElementById("translationArea").innerHTML += j;
+  var k = str.replace("k", "<img src='images/heiroglyphics/k.gif'>");
+  document.getElementById("translationArea").innerHTML += k;
+  var l = str.replace("l", "<img src='images/heiroglyphics/l.gif'>");
+  document.getElementById("translationArea").innerHTML += l;
+  var m = str.replace("m", "<img src='images/heiroglyphics/m.gif'>");
+  document.getElementById("translationArea").innerHTML += m;
+  var n = str.replace("n", "<img src='images/heiroglyphics/n.gif'>");
+  document.getElementById("translationArea").innerHTML += n;
+  var o = str.replace("o", "<img src='images/heiroglyphics/o.gif'>");
+  document.getElementById("translationArea").innerHTML += o;
+  var p = str.replace("p", "<img src='images/heiroglyphics/p.gif'>");
+  document.getElementById("translationArea").innerHTML += p;
+  var q = str.replace("q", "<img src='images/heiroglyphics/q.gif'>");
+  document.getElementById("translationArea").innerHTML += q;
+  var r = str.replace("r", "<img src='images/heiroglyphics/r.gif'>");
+  document.getElementById("translationArea").innerHTML += r;
+  var s = str.replace("s", "<img src='images/heiroglyphics/s.gif'>");
+  document.getElementById("translationArea").innerHTML += s;
+  var t = str.replace("t", "<img src='images/heiroglyphics/t.gif'>");
+  document.getElementById("translationArea").innerHTML += t;
+  var u = str.replace("u", "<img src='images/heiroglyphics/u.gif'>");
+  document.getElementById("translationArea").innerHTML += u;
+  var v = str.replace("v", "<img src='images/heiroglyphics/v.gif'>");
+  document.getElementById("translationArea").innerHTML += v;
+  var w = str.replace("w", "<img src='images/heiroglyphics/w.gif'>");
+  document.getElementById("translationArea").innerHTML += w;
+  var x = str.replace("x", "<img src='images/heiroglyphics/x.gif'>");
+  document.getElementById("translationArea").innerHTML += x;
+  var y = str.replace("y", "<img src='images/heiroglyphics/y.gif'>");
+  document.getElementById("translationArea").innerHTML += y;
+  var z = str.replace("z", "<img src='images/heiroglyphics/z.gif'>")
+  document.getElementById("translationArea").innerHTML += z;
 }
